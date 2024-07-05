@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { IoFitness } from "react-icons/io5";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 
 const Navbar: React.FC = () => {
@@ -63,8 +64,8 @@ const Navbar: React.FC = () => {
                         </button>
                     </div>
                 </div>
-
-
+                {/* Use ResponsiveMenu component for the responsive menu */}
+                <ResponsiveMenu isMenuOpen={isMenuOpen} />
             </div>
         </nav>
     );

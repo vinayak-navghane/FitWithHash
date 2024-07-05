@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <nav className='bg-white px-4 py-6'>
+        <nav className='bg-white px-4 py-6 border-b-current'>
             <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between'>
                 <div className='flex w-full items-center justify-between'>
                     {/* Logo on the left */}

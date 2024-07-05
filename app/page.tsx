@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main >
       <Navbar />
-      <div className="bg-gray-900 opacity-50 blur-sm h-full">
+      <div className="bg-gray-900 opacity-65 blur-sm h-full">
         <img
           src="/images/hash.jpeg"
           alt="image"

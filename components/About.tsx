@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { GiMeal } from "react-icons/gi";
+import { LiaFontAwesomeAlt } from "react-icons/lia";
+import { LuListTodo } from "react-icons/lu";
 
 const About: React.FC = () => {
     return (
@@ -17,21 +20,27 @@ const About: React.FC = () => {
                     What We Offer:
                 </p>
                 <div className='flex items-center mt-4'>
-
+                    <div>
+                        <GiMeal size={28} />
+                    </div>
                     <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl '>
-                        Customized Diet Plans: Tailored to your specific health needs and goals.
+                        &nbsp;   Customized Diet Plans: Tailored to your goals
                     </p>
                 </div>
                 <div className='flex items-center mt-4'>
-
+                    <div>
+                        <LuListTodo size={28} />
+                    </div>
                     <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl  '>
-                        Meal Planning: Easy-to-follow meal plans that fit your lifestyle.
+                        &nbsp;   Meal Planning: Easy-to-follow meal plans
                     </p>
                 </div>
                 <div className='flex items-center mt-4'>
-
+                    <div>
+                        <LiaFontAwesomeAlt size={28} />
+                    </div>
                     <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl  '>
-                        Ongoing Support: Continuous guidance to keep you on track.
+                        &nbsp;   Ongoing Support: Continuous guidance from expert
                     </p>
                 </div>
 

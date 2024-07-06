@@ -33,10 +33,10 @@ const Services: React.FC = () => {
                     <div
                         key={service.id}
                         className='bg-white rounded-xl border-2 border-red-400 overflow-hidden shadow-xl'>
-                        <div className='flex items-center justify-center p-4'>
+                        <div className='flex items-center justify-center p-2'>
                             {service.icon}
                         </div>
-                        <div className='p-4 text-center'>
+                        <div className='p-2 text-center'>
                             <h3 className='text-xl font-semibold mb-2'>
                                 {service.name}
                             </h3>

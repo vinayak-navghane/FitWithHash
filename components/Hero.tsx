@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({ bgImage }) => {
                             Buy Now
                         </button>
                     </Link>
-                    <Link href='' target="_blank">
+                    <Link href='https://online.fliphtml5.com/solrq/ptiy/' target="_blank">
                         <button className='mx-4 font-bold text-lg mt-8  px-6 py-2 rounded-lg text-white lg:mt-8 transition duration-300 border-2 border-red-400 hover:scale-95 cursor-pointer'>
                             Download Demo Plan
                         </button>

@@ -2,6 +2,7 @@ import About from "@/components/About";
 import DietPlans from "@/components/DietPlans";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 
 
 export default function Home() {
@@ -11,14 +12,7 @@ export default function Home() {
       <Hero bgImage="hash.jpeg" />
       <About />
       <DietPlans bgImage="hash.jpeg" />
+      <Services />
     </main>
   );
 }
-
-{/* <div className="bg-gray-900 opacity-65 blur-sm h-full">
-        <img
-          src="/images/hash.jpeg"
-          alt="image"
-          className="w-full h-screen"
-        />
-      </div> */}

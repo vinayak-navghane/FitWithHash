@@ -6,26 +6,32 @@ const About: React.FC = () => {
         <div id="about" className='min-h-screen px-8 lg:px-12 xl:px-16 mt-16 flex flex-col xl:flex-row items-center justify-center w-full'>
             {/* Content on the left */}
             <div className='w-full '>
-                <h2 className='text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold mb-4 text-green-900'>
+                <h2 className='text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold mb-4 text-red-400'>
                     About Us
                 </h2>
-                <p className='text-black font-normal text-md lg:text-lg xl:text-xl mb-8 '>
+                <p className='text-gray-600 font-extralight text-md lg:text-lg xl:text-xl mb-8  '>
                     We believe that true health and wellness begin with the right nutrition. Our mission is to empower you with the knowledge and tools to make informed dietary choices that support your unique lifestyle and health goals.
                 </p>
 
-                <p className='text-green-900 uppercase font-bold text-lg lg:text-xl xl:text-2xl mb-2 '>
-                    What We Offer
+                <p className='text-black font-bold text-lg lg:text-xl xl:text-2xl mb-2 '>
+                    What We Offer:
                 </p>
                 <div className='flex items-center mt-4'>
 
-                    <p className='text-black font-medium text-md lg:text-lg xl:text-xl '>
-                        Personalized Nutrition Plans: Tailored to meet your specific needs, preferences, and health goals.
+                    <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl '>
+                        Customized Diet Plans: Tailored to your specific health needs and goals.
                     </p>
                 </div>
                 <div className='flex items-center mt-4'>
 
-                    <p className='text-black font-medium text-md lg:text-lg xl:text-xl  '>
-                        Nutritional Counseling: One-on-one sessions to guide you through every step of your wellness journey.
+                    <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl  '>
+                        Meal Planning: Easy-to-follow meal plans that fit your lifestyle.
+                    </p>
+                </div>
+                <div className='flex items-center mt-4'>
+
+                    <p className='text-red-400 font-bold text-md lg:text-lg xl:text-xl  '>
+                        Ongoing Support: Continuous guidance to keep you on track.
                     </p>
                 </div>
 

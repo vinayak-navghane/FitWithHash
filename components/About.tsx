@@ -64,7 +64,7 @@ const About: React.FC = () => {
                     {/* Second photo */}
                     <div className='relative mt-4'>
                         <Image
-                            src='/images/weight-loss.jpg'
+                            src='/images/fat-loss.jpg'
                             objectFit='cover'
                             alt='Photo 2'
                             className='rounded-md shadow-lg'

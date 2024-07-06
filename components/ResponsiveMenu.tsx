@@ -18,9 +18,9 @@ const ResponsiveMenu: React.FC<ResponsiveMenuProps> = ({ isMenuOpen }) => {
                             About
                         </p>
                     </Link>
-                    <Link href='#'>
+                    <Link href='#dietplans'>
                         <p className='font-medium text-lg text-gray-800 mt-4 lg:mt-0 transition duration-300 hover:text-red-400 hover:scale-95 cursor-pointer'>
-                            Contact Us
+                            Diet Plans
                         </p>
                     </Link>
                     <Link href='#'>

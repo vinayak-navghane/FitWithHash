@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import DietPlans from "@/components/DietPlans";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
@@ -9,7 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero bgImage="hash.jpeg" />
       <About />
-
+      <DietPlans bgImage="hash.jpeg" />
     </main>
   );
 }

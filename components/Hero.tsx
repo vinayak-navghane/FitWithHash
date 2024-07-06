@@ -21,14 +21,7 @@ const Hero: React.FC<HeroProps> = ({ bgImage }) => {
             <div
                 className='relative w-full h-screen  flex flex-col justify-center items-center'
                 style={overlayStyle}>
-                {/* <Image
-                    src='/images/logo.png'
-                    width={200}
-                    height={200}
-                    alt='Picture of the author'
-                /> */}
-
-                <h1 className='z-10 text-white text-center text-5xl lg:text-7xl xl:text-8xl font-bold  uppercase mt-8'>
+                <h1 className='z-10 text-white text-center text-5xl lg:text-7xl xl:text-8xl font-bold   mt-8'>
                     FitWithHash
                 </h1>
                 <p className='z-10 text-white text-lg md:text-xl lg:text-2xl xl:text-3xl font-light mt-2'>

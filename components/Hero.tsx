@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({ bgImage }) => {
                     Customized Diet Plans for a Healthier You.
                 </p>
                 <div className="flex items-center flex-col lg:flex-row">
-                    <Link href='' target="_blank">
+                    <Link href='https://docs.google.com/forms/d/e/1FAIpQLSc2sfkbFERypWs5N3h1xxgo830XhkjvoNo9lSw8mD24ktu53A/viewform' target="_blank">
                         <button className='mx-4 font-bold text-lg mt-8  px-6 py-2 rounded-lg text-white lg:mt-8 transition duration-300 bg-red-400 hover:scale-95 cursor-pointer'>
                             Buy Now
                         </button>
